@@ -1,0 +1,24 @@
+{
+  "name": "js-web-express-handlebars-workshop",
+  "version": "1.0.0",
+  "description": "Educational project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobriNedev/JS-Web-express-handlebars-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobriNedev/JS-Web-express-handlebars-workshop/issues"
+  },
+  "homepage": "https://github.com/dobriNedev/JS-Web-express-handlebars-workshop#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
