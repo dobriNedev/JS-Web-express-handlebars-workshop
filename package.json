@@ -4,7 +4,7 @@
   "description": "Educational project",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node_env=production&& node ./src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dobriNedev/JS-Web-express-handlebars-workshop#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.20"
   }
 }
