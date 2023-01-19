@@ -3,9 +3,10 @@ exports.getCreateCubePage = (req, res) => {
 };
 
 exports.postCreateCube = (req, res) => {
-    
+    //TO DO save data
+
     console.log(req.body);
-    
-    res.send('form submited');
+    //TO DO redirect
+    res.send('Form submited');
 
 };
