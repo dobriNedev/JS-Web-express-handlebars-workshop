@@ -41,6 +41,20 @@
       "imageUrl": "https://litb-cgis.rightinthebox.com/images/640x640/202205/bps/product/inc/hpnatm1651748016578.jpg?fmt=webp&v=1",
       "id": 6,
       "difficultyLevel": "3"
+    },
+    {
+      "name": "Glownex",
+      "description": "Rubik's cube that glows in the dark.",
+      "imageUrl": "https://litb-cgis.rightinthebox.com/images/640x640/202103/bps/product/inc/eivgkj1615798055622.jpg",
+      "id": 7,
+      "difficultyLevel": "4"
+    },
+    {
+      "name": "Fortniter",
+      "description": "Fortnite skin on Rubik's cube.",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0270/1213/7015/products/s-l16020_1024x.jpg?v=1659404208",
+      "id": 8,
+      "difficultyLevel": "2"
     }
   ]
 }
