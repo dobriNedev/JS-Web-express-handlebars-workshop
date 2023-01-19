@@ -6,6 +6,8 @@ const viewEngineSetup = require('./config/viewEngineConfig.js');
 
 viewEngineSetup(app);
 
+app.use(express.static('./src/public'));
+
 
 
 
