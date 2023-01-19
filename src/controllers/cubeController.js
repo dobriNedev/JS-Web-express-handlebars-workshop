@@ -6,7 +6,7 @@ exports.getCreateCubePage = (req, res) => {
 };
 
 exports.postCreateCube = (req, res) => {
-    const { name, description, imageUrl, dificultyLevel } = req.body;
+    const { name, description, imageUrl, difficultyLevel } = req.body;
     let cube = new Cube(name, description, imageUrl, difficultyLevel);
     cube.save();
     
