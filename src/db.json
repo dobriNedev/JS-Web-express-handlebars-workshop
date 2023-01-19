@@ -1,29 +1,46 @@
 {
-    "cubes": [
-        {
-            "name": "Gan356 Air SM",
-            "description": "test",
-            "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
-            "difficulty level": "3"
-        },
-        {
-            "name": "Eco-Dark",
-            "description": "test",
-            "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
-            "difficulty level": "6"
-        },
-        {
-            "name": "Pyraminx",
-            "description": "test",
-            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
-            "difficulty level": "1"
-        },
-        {
-            "name": "Megaminx",
-            "description": "test",
-            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
-            "difficulty level": "3"
-        }
-    ]
+  "cubes": [
+    {
+      "id": 1,
+      "name": "Gan356 Air SM",
+      "description": "test",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 2,
+      "name": "Eco-Dark",
+      "description": "test",
+      "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
+      "difficultyLevel": "6"
+    },
+    {
+      "id": 3,
+      "name": "Pyraminx",
+      "description": "test",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+      "difficultyLevel": "1"
+    },
+    {
+      "id": 4,
+      "name": "Megaminx",
+      "description": "test",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 5,
+      "name": "Twistex",
+      "description": "Rubik's cube with twisted shape.",
+      "imageUrl": "https://litb-cgis.rightinthebox.com/images/640x640/202201/bps/product/inc/klekch1642473072511.jpg?fmt=webp&v=1",
+      "difficultyLevel": "4"
+    },
+    {
+      "name": "Legobex",
+      "description": "Lego inspired Rubik's cube.",
+      "imageUrl": "https://litb-cgis.rightinthebox.com/images/640x640/202205/bps/product/inc/hpnatm1651748016578.jpg?fmt=webp&v=1",
+      "id": 6,
+      "difficultyLevel": "3"
+    }
+  ]
 }
-

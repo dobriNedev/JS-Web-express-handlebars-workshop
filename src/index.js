@@ -4,7 +4,6 @@ const routes = require('./routes');
 
 const config = require('./config/config.js');
 const viewEngineSetup = require('./config/viewEngineConfig.js');
-const { urlencoded } = require('express');
 
 const app = express();
 
