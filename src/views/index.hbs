@@ -3,9 +3,9 @@
 
   <form action="/" method="GET">
     <input type="text" class="search" name="search" placeholder="Search..." value="{{search}}">
-    <input type="number" name="from" class="difficulty" placeholder="Difficulty from..." value="{{difficultyFrom}}">
+    <input type="number" name="from" class="difficulty" placeholder="Difficulty from..." value="{{difficultyFrom}}" min="1" max="6">
     <span>-</span>
-    <input type="number" name="to" class="difficulty" placeholder="Difficulty to..." value="{{difficultyTo}}">
+    <input type="number" name="to" class="difficulty" placeholder="Difficulty to..." value="{{difficultyTo}}" min="1" max="6">
     <input type="submit" value="search">
   </form>
   {{#if cubes}}
