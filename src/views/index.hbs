@@ -9,10 +9,16 @@
     <input type="submit" value="search">
   </form>
   {{#if cubes}}
-  <h2>Search result:</h2>
-  {{#each cubes}}
-  {{>cube}}
-  {{/each}}
+    {{#if isSearch}}
+    <h2>Search result:</h2>
+      {{#each cubes}}
+      {{>cube}}
+      {{/each}}
+    {{else}}
+      {{#each cubes}}
+      {{>cube}}
+      {{/each}}
+    {{/if}}
   {{else}}
   <div class="no-found">
     <h2>Search result:</h2>
