@@ -10,9 +10,12 @@
   </form>
   {{#if cubes}}
   {{#each cubes}}
-    {{>cube}}
+  {{>cube}}
   {{/each}}
   {{else}}
-  <h1>No cubs found!</h1>
+  <div class="no-found">
+    <h1>No cubs found!</h1>
+    <a class="no-found" href="/">Back</a>
+  </div>
   {{/if}}
 </main>
