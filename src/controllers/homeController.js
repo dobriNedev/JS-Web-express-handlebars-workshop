@@ -6,7 +6,7 @@ exports.getHomePage = (req, res) => {
     let cubes = db.cubes;
     
     if (search) {
-        cubes = cubes.filter(el => el.name.toLowerCase().includes(search.toLowerCase));
+        cubes = cubes.filter(el => el.name.toLowerCase().includes(search.toLowerCase()));
     }
 
     if (difficultyFrom) {

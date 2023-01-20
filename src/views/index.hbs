@@ -8,8 +8,11 @@
     <input type="number" name="to" class="difficulty" placeholder="Difficulty to..." value="{{difficultyTo}}">
     <input type="submit" value="search">
   </form>
-
+  {{#if cubes}}
   {{#each cubes}}
-  {{>cube}}
+    {{>cube}}
   {{/each}}
+  {{else}}
+  <h1>No cubs found!</h1>
+  {{/if}}
 </main>

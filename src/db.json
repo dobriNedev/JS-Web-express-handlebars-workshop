@@ -43,7 +43,7 @@
       "difficultyLevel": "3"
     },
     {
-      "name": "Glownex",
+      "name": "Glowex",
       "description": "Rubik's cube that glows in the dark.",
       "imageUrl": "https://litb-cgis.rightinthebox.com/images/640x640/202103/bps/product/inc/eivgkj1615798055622.jpg",
       "id": 7,
@@ -55,6 +55,13 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0270/1213/7015/products/s-l16020_1024x.jpg?v=1659404208",
       "id": 8,
       "difficultyLevel": "2"
+    },
+    {
+      "name": "Perlexus",
+      "description": "Cool pearl motiv.",
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHml9XFRgH1T5qlcfu_sq1lSzhLOahKAXYfbT7hGPG05D5lFhtX1K-CXz_HZnHrnaqVrcV9o7tmNaE&usqp=CAc",
+      "difficultyLevel": "4",
+      "id": 9
     }
   ]
 }

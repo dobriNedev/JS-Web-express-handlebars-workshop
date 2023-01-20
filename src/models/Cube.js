@@ -14,7 +14,12 @@ class Cube {
         this.id = db.cubes[db.cubes.length - 1].id + 1;
         db.cubes.push(this);
         const jsonData = JSON.stringify(db, null, 2);
-        fs.writeFileSync(path.resolve(__dirname, '../db.json'), jsonData);
+        try {
+            fs.promises.writeFile(path.resolve(__dirname, '../db.json'), jsonData);
+        } catch (error) {
+            console.error(error);
+        }
+        
     }
 }
 
