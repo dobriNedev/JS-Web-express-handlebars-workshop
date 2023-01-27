@@ -10,8 +10,8 @@ router.get('/', homeController.getHomePage);
 router.get('/about', homeController.getAboutPage);
 router.get('/404', homeController.getErrorPage);
 
-router.get('/create', cubeController.getCreateCubePage);
-router.post('/create', cubeController.postCreateCube);
-router.get('/details/:cubeId', cubeController.getDetails);
+router.get('/cubes/create', cubeController.getCreateCubePage);
+router.post('/cubes/create', cubeController.postCreateCube);
+router.get('/cubes/:cubeId/details/', cubeController.getDetails);
 
 module.exports = router;
