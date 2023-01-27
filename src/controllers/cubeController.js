@@ -1,14 +1,17 @@
 const Cube = require('../models/Cube');
+
 const db = require('../db.json');
 
 exports.getCreateCubePage = (req, res) => {
     res.render('create');
 };
 
-exports.postCreateCube = (req, res) => {
+exports.postCreateCube = async (req, res) => {
     const { name, description, imageUrl, difficultyLevel } = req.body;
-    let cube = new Cube(name, description, imageUrl, difficultyLevel);
-    cube.save();
+    
+    const cube = new Cube({ name, description, imageUrl, difficultyLevel });
+
+    await cube.save();
     
     res.redirect('/');
 };
