@@ -16,5 +16,6 @@ router.post('/cubes/create', cubeController.postCreateCube);
 router.get('/cubes/:cubeId/details/', cubeController.getDetails);
 
 router.get('/accessories/create', accessoryController.getAccessoryCreate);
+router.post('/accessories/create', accessoryController.postAccessoryCreate);
 
 module.exports = router;

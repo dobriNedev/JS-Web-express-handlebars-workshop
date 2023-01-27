@@ -10,7 +10,7 @@ exports.postAccessoryCreate = async(req, res) => {
 
     const accessory = new Accessory({ name, description, imageUrl });
 
-    await Accessory.save();
+    await accessory.save();
 
     res.redirect('/');
 };
