@@ -30,15 +30,14 @@ exports.getDetails = async (req, res) => {
 exports.getAccessoryAtthach = async (req, res) => {
     const cube = await Cube.findById(req.params.cubeId).lean();
     const accessories = await Accessory.find().lean();
-    console.log(`GET ATTACH TO CUBE: ${cube.name}`);
-    console.log(`GET ATTACH ACCESSORY TO CUBE: ${accessories}`);
+
     res.render('attach', { cube, accessories });
 };
 
 exports.postAccessoryAttach = async (req, res) => {
     const cube = await Cube.findById(req.params.cubeId).lean();
     const accessories = await Accessory.find().lean();
-    console.log(`POST ATTACH TO CUBE: ${cube}`);
+    
     res.redirect('/');
 }
 
