@@ -19,7 +19,7 @@ exports.postCreateCube = async (req, res) => {
 
 exports.getDetails = async (req, res) => {
     const cube = await Cube.findById(req.params.cubeId).lean();
-    console.log(`GET DETAILS CUBE: ${cube.imageUrl}`);
+    
     if (!cube) {
         return res.redirect('/404');
     }
@@ -35,9 +35,14 @@ exports.getAccessoryAtthach = async (req, res) => {
 };
 
 exports.postAccessoryAttach = async (req, res) => {
-    const cube = await Cube.findById(req.params.cubeId).lean();
-    const accessories = await Accessory.find().lean();
+    const cube = await Cube.findById(req.params.cubeId);
+    const accessoryId = req.body.accessory;
+    cube.accessories.push(accessoryId);
+
+    cube.save();
+
     
-    res.redirect('/');
+    
+   
 }
 
