@@ -13,7 +13,7 @@ router.get('/404', homeController.getErrorPage);
 
 router.get('/cubes/create', cubeController.getCreateCubePage);
 router.post('/cubes/create', cubeController.postCreateCube);
-router.get('/cubes/:cubeId/details/', cubeController.getDetails);
+router.get('/cubes/:cubeId/details', cubeController.getDetails);
 router.get('/cubes/:cubeId/attach', cubeController.getAccessoryAtthach);
 router.post('/cubes/:cubeId/attach', cubeController.postAccessoryAttach);
 
