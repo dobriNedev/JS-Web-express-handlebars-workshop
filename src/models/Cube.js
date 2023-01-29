@@ -23,7 +23,8 @@ const cubeSchema = new mongoose.Schema({
     },
     accessories: [{
         type: mongoose.Types.ObjectId,
-        ref: 'Accessory'
+        ref: 'Accesory' 
+        //refers to the name of the db collection when creating the model -> const Accessory = mongoose.model('Accesory', accessoryShema);
     }]
 });
 
