@@ -8,9 +8,18 @@ exports.getCreateCubePage = (req, res) => {
 exports.postCreateCube = async (req, res) => {
     const { name, description, imageUrl, difficultyLevel } = req.body;
     
+    /*
+    alternative for creating and saving new cube
+    await Cube.create({ name, description, imageUrl, difficultyLevel });
+    */
+
     const cube = new Cube({ name, description, imageUrl, difficultyLevel });
 
-    await cube.save();
+    try {
+        await cube.save();
+    } catch (error) {
+        console.log(error.message)
+    }
     
     res.redirect('/');
 };
