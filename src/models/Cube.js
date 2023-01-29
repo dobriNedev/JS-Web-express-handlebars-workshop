@@ -13,7 +13,8 @@ const cubeSchema = new mongoose.Schema({
     imageUrl: {
         type: String,
         required: true,
-        //Add http/https validation
+        //http/https validation with match: [1st param is regexp, 2nd param error message]
+        match: [/^http[s]?:\/\//g, 'Invalid URL!']
     },
     difficultyLevel: {
         type: Number,
